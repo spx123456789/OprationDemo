@@ -1,16 +1,17 @@
 //
-//  FKAccount.m
+//  SXAccount.m
 //  OPrationDemo
 //
 //  Created by SHANPX on 16/7/29.
 //  Copyright © 2016年 SHANPX. All rights reserved.
 //
 
-#import "FKAccount.h"
+#import "SXAccount.h"
 
-@implementation FKAccount
+@implementation SXAccount
 NSCondition *cond;
 BOOL  flag;
+
 -(id)init
 {
     self=[super init];
@@ -39,7 +40,7 @@ BOOL  flag;
         NSLog(@"%@取钱:%g",[NSThread currentThread].name,drawAmount);
         _balance-=drawAmount;
         NSLog(@"账户余额为:%g",_balance);
-        flag=NO;
+        flag=!(_balance<800);
         [cond broadcast];
     }
     [cond unlock];
@@ -49,12 +50,12 @@ BOOL  flag;
 {
     [cond lock];
     if (flag) {
-        [cond wait];
+        [cond wait];// [cond waitUntilDate:<#(nonnull NSDate *)#>]
     }else{
         NSLog(@"%@存钱:%g",[NSThread currentThread].name,depositAmount);
         _balance+=depositAmount;
         NSLog(@"账户余额为:%g",_balance);
-        flag=YES;
+        flag=_balance>=800;
         [cond broadcast];
     }
     [cond unlock];

@@ -15,10 +15,10 @@
 		AA03D3C61D5065B000A3587D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA03D3C41D5065B000A3587D /* LaunchScreen.storyboard */; };
 		AA03D3D11D5065B000A3587D /* OPrationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3D01D5065B000A3587D /* OPrationDemoTests.m */; };
 		AA03D3DC1D5065B000A3587D /* OPrationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3DB1D5065B000A3587D /* OPrationDemoUITests.m */; };
-		AA03D3ED1D5065F800A3587D /* ESPThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3EA1D5065F800A3587D /* ESPThread.m */; };
-		AA03D3EE1D5065F800A3587D /* FKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3EC1D5065F800A3587D /* FKAccount.m */; };
-		AA03D4601D50898700A3587D /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3F21D50898700A3587D /* CALayer+Anim.m */; };
-		AA03D4611D50898700A3587D /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3F41D50898700A3587D /* CALayer+Transition.m */; };
+		AA03D3EE1D5065F800A3587D /* SXAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3EC1D5065F800A3587D /* SXAccount.m */; };
+		AA88819E1D58182900280856 /* SXThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AA88819D1D58182900280856 /* SXThread.m */; };
+		AAA2A6C31D597509000B1110 /* SXOpration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA2A6C21D597509000B1110 /* SXOpration.m */; };
+		AAD9AB661D5336A2005015BF /* ESPThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9AB651D5336A2005015BF /* ESPThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,16 +55,14 @@
 		AA03D3D71D5065B000A3587D /* OPrationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPrationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA03D3DB1D5065B000A3587D /* OPrationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPrationDemoUITests.m; sourceTree = "<group>"; };
 		AA03D3DD1D5065B000A3587D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA03D3E91D5065F800A3587D /* ESPThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPThread.h; sourceTree = "<group>"; };
-		AA03D3EA1D5065F800A3587D /* ESPThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPThread.m; sourceTree = "<group>"; };
-		AA03D3EB1D5065F800A3587D /* FKAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAccount.h; sourceTree = "<group>"; };
-		AA03D3EC1D5065F800A3587D /* FKAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAccount.m; sourceTree = "<group>"; };
-		AA03D3F11D50898700A3587D /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
-		AA03D3F21D50898700A3587D /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
-		AA03D3F31D50898700A3587D /* CALayer+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Transition.h"; sourceTree = "<group>"; };
-		AA03D3F41D50898700A3587D /* CALayer+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Transition.m"; sourceTree = "<group>"; };
-		AA03D3F51D50898700A3587D /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
-		AA03D48B1D508C7B00A3587D /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
+		AA03D3EB1D5065F800A3587D /* SXAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXAccount.h; path = ../SXAccount.h; sourceTree = "<group>"; };
+		AA03D3EC1D5065F800A3587D /* SXAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SXAccount.m; path = ../SXAccount.m; sourceTree = "<group>"; };
+		AA88819C1D58182900280856 /* SXThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXThread.h; sourceTree = "<group>"; };
+		AA88819D1D58182900280856 /* SXThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXThread.m; sourceTree = "<group>"; };
+		AAA2A6C11D597509000B1110 /* SXOpration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXOpration.h; sourceTree = "<group>"; };
+		AAA2A6C21D597509000B1110 /* SXOpration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXOpration.m; sourceTree = "<group>"; };
+		AAD9AB641D5336A2005015BF /* ESPThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPThread.h; sourceTree = "<group>"; };
+		AAD9AB651D5336A2005015BF /* ESPThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +113,9 @@
 		AA03D3B51D5065B000A3587D /* OPrationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AA03D3EF1D50898700A3587D /* Categories */,
-				AA03D3E91D5065F800A3587D /* ESPThread.h */,
-				AA03D3EA1D5065F800A3587D /* ESPThread.m */,
-				AA03D3EB1D5065F800A3587D /* FKAccount.h */,
-				AA03D3EC1D5065F800A3587D /* FKAccount.m */,
+				AAD9AB611D5336A2005015BF /* GCD */,
+				AAD9AB621D5336A2005015BF /* NSOpration */,
+				AAD9AB631D5336A2005015BF /* NSThread */,
 				AA03D3B91D5065B000A3587D /* AppDelegate.h */,
 				AA03D3BA1D5065B000A3587D /* AppDelegate.m */,
 				AA03D3BC1D5065B000A3587D /* ViewController.h */,
@@ -159,25 +155,33 @@
 			path = OPrationDemoUITests;
 			sourceTree = "<group>";
 		};
-		AA03D3EF1D50898700A3587D /* Categories */ = {
+		AAD9AB611D5336A2005015BF /* GCD */ = {
 			isa = PBXGroup;
 			children = (
-				AA03D48B1D508C7B00A3587D /* CoreConst.h */,
-				AA03D3F01D50898700A3587D /* CALayer */,
-				AA03D3F51D50898700A3587D /* Categories.h */,
 			);
-			path = Categories;
+			path = GCD;
 			sourceTree = "<group>";
 		};
-		AA03D3F01D50898700A3587D /* CALayer */ = {
+		AAD9AB621D5336A2005015BF /* NSOpration */ = {
 			isa = PBXGroup;
 			children = (
-				AA03D3F11D50898700A3587D /* CALayer+Anim.h */,
-				AA03D3F21D50898700A3587D /* CALayer+Anim.m */,
-				AA03D3F31D50898700A3587D /* CALayer+Transition.h */,
-				AA03D3F41D50898700A3587D /* CALayer+Transition.m */,
+				AAA2A6C11D597509000B1110 /* SXOpration.h */,
+				AAA2A6C21D597509000B1110 /* SXOpration.m */,
 			);
-			path = CALayer;
+			path = NSOpration;
+			sourceTree = "<group>";
+		};
+		AAD9AB631D5336A2005015BF /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				AA03D3EB1D5065F800A3587D /* SXAccount.h */,
+				AA03D3EC1D5065F800A3587D /* SXAccount.m */,
+				AAD9AB641D5336A2005015BF /* ESPThread.h */,
+				AAD9AB651D5336A2005015BF /* ESPThread.m */,
+				AA88819C1D58182900280856 /* SXThread.h */,
+				AA88819D1D58182900280856 /* SXThread.m */,
+			);
+			path = NSThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,12 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA03D4601D50898700A3587D /* CALayer+Anim.m in Sources */,
-				AA03D4611D50898700A3587D /* CALayer+Transition.m in Sources */,
+				AAA2A6C31D597509000B1110 /* SXOpration.m in Sources */,
 				AA03D3BE1D5065B000A3587D /* ViewController.m in Sources */,
-				AA03D3EE1D5065F800A3587D /* FKAccount.m in Sources */,
+				AAD9AB661D5336A2005015BF /* ESPThread.m in Sources */,
+				AA03D3EE1D5065F800A3587D /* SXAccount.m in Sources */,
 				AA03D3BB1D5065B000A3587D /* AppDelegate.m in Sources */,
-				AA03D3ED1D5065F800A3587D /* ESPThread.m in Sources */,
+				AA88819E1D58182900280856 /* SXThread.m in Sources */,
 				AA03D3B81D5065B000A3587D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,6 +544,7 @@
 				AA03D3E21D5065B000A3587D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA03D3E31D5065B000A3587D /* Build configuration list for PBXNativeTarget "OPrationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +553,7 @@
 				AA03D3E51D5065B000A3587D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA03D3E61D5065B000A3587D /* Build configuration list for PBXNativeTarget "OPrationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +562,7 @@
 				AA03D3E81D5065B000A3587D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
